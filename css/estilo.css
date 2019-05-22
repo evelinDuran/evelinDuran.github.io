@@ -23,4 +23,10 @@ h2 {
     font-family: fantasy;
 }
 
-a li {}
+nav li :hover {
+    background: rgb(70, 70, 70);
+    color: pink;
+    /*para que cmabie de color entones en transition se colocaria ---,color 1s*/
+    transition: background 1s;
+    /*poner transicion*/
+}
