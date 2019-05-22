@@ -8,6 +8,11 @@ nav {
     text-align: center;
 }
 
+li {
+    display: inline-block;
+    list-style: none;
+}
+
 body {
     text-align: center;
 }

@@ -12,6 +12,7 @@ li {
     margin-left: 20px;
     text-decoration: none;
     display: inline-block;
+    list-style: none;
 }
 
 .amigos {
