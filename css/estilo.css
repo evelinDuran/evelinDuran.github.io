@@ -1,3 +1,15 @@
 body {
     background: orange;
 }
+
+header {
+    text-align: center;
+}
+
+nav {
+    display: inline-block;
+}
+
+li {
+    text-decoration: none;
+}
