@@ -1,15 +1,13 @@
-body {
-    background: orange;
-}
-
 header {
     text-align: center;
 }
 
 nav {
-    display: inline-block;
+    background: grey;
+    text-align: center;
 }
 
 li {
     text-decoration: none;
+    display: inline-block;
 }
