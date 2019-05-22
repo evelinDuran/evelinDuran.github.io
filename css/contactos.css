@@ -1,0 +1,19 @@
+main {
+    background-color: orange;
+}
+
+header {
+    background-color: grey;
+    text-align: center;
+}
+
+nav {
+    background: grey;
+    text-align: center;
+}
+
+li {
+    margin-left: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
