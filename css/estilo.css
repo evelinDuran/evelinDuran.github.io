@@ -17,3 +17,7 @@ li {
     text-decoration: none;
     display: inline-block;
 }
+
+h2 {
+    font-family: fantasy;
+}
