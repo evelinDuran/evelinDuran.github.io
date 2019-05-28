@@ -1,0 +1,121 @@
+.cuerpo {
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 3px;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 1000px;
+    height: 1090px;
+    background-color: rgb(253, 252, 207);
+}
+
+.titulo {
+    display: inline-block;
+}
+
+.cabecera {
+    background-color: rgb(253, 252, 207);
+    padding-top: 1%;
+}
+
+.cabecera h1 {
+    font-family: 'Brush Script MT', cursive;
+    display: inline-block;
+    margin-bottom: 0%;
+    font-size: 300%;
+}
+
+.cabecera h2 {
+    font-family: Times, serif;
+    font-weight: lighter;
+    font-size: 110%;
+    margin-top: 0%;
+}
+
+.menu {
+    padding-top: 0%;
+    margin-top: 0%;
+    text-align: right;
+    display: inline-block;
+    width: 50%;
+    margin-left: 20%;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 120%;
+}
+
+.menu li {
+    display: inline;
+    margin-left: 4%;
+    font-family: Times, 'Times New Roman', serif;
+}
+
+.puente {
+    margin-top: 2%;
+    height: 150px;
+    border-radius: 3%;
+    position: relative;
+    background-color: aqua;
+    background-image: url("D:\IX ciclo\Iweb\ZOZOR\imagenes\sanfrancisco.jpg");
+}
+
+.puenteDescripcion {
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+
+.descripcion {
+    width: 64%;
+    text-align: justify;
+    display: inline-block;
+    margin-right: 0%;
+}
+
+aside {
+    margin-top: 10%;
+    display: inline-block;
+    float: right;
+    width: 30%;
+    text-align: justify;
+    background-color: #706b64;
+    padding: 1%;
+    margin-left: 0px;
+    border-radius: 2%;
+}
+
+.autor {
+    text-align: center;
+}
+
+.vaca {
+    display: block;
+    margin: auto;
+    border: 3px;
+    border: black 2px solid;
+}
+
+footer {
+    margin-top: 2%;
+    padding: 1%;
+}
+
+.tweet,
+.picture,
+.friends {
+    height: 20%;
+    display: inline-block;
+    margin-right: 5%;
+    vertical-align: top;
+}
+
+.friends ul {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0%;
+    list-style-type: none;
+    list-style-image: url('D:\IX ciclo\Iweb\ZOZOR\imagenes\ico_liensexterne.png')
+}
