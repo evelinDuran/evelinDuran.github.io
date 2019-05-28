@@ -55,11 +55,8 @@
 
 .puente {
     margin-top: 2%;
-    height: 150px;
     border-radius: 3%;
     position: relative;
-    background-color: aqua;
-    background-image: url("..\imagenes\sanfrancisco.jpg");
 }
 
 .puenteDescripcion {
