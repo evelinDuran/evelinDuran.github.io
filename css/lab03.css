@@ -59,7 +59,7 @@
     border-radius: 3%;
     position: relative;
     background-color: aqua;
-    background-image: url("D:\IX ciclo\Iweb\ZOZOR\imagenes\sanfrancisco.jpg");
+    background-image: url("..\imagenes\sanfrancisco.jpg");
 }
 
 .puenteDescripcion {
@@ -117,5 +117,5 @@ footer {
     vertical-align: top;
     margin-top: 0%;
     list-style-type: none;
-    list-style-image: url('D:\IX ciclo\Iweb\ZOZOR\imagenes\ico_liensexterne.png')
+    list-style-image: url('..\imagenes\ico_liensexterne.png')
 }
