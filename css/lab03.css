@@ -56,6 +56,7 @@
 .puente {
     margin-top: 2%;
     border-radius: 3%;
+    width: 50%;
     position: relative;
 }
 
