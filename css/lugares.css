@@ -8,6 +8,10 @@ nav {
     text-align: center;
 }
 
+nav a {
+    margin-right: 8px;
+}
+
 li {
     display: inline-block;
     list-style: none;
