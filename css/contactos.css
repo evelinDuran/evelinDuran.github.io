@@ -16,6 +16,10 @@ li {
     list-style: none;
 }
 
+nav a {
+    margin-right: 10 px;
+}
+
 .amigos {
     background-color: aqua;
 }
