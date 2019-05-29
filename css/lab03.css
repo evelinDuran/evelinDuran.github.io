@@ -165,3 +165,11 @@ footer .arrow {
     list-style-type: none;
     list-style-image: url(../imagenes/ico_liensexterne.png);
 }
+
+footer {
+    margin-top: 30%;
+}
+
+footer img {
+    margin-left: 20px;
+}
