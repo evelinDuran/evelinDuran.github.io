@@ -11,121 +11,319 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>LugaresTurísticos</title>
     <meta name="author" content="Evelin Duran Julcamoro">
+
     <meta name="keywords" content="lugares turísticos, cajamarca">
     <meta name="description" content="información sobre lugares turísticos de Cajamarca">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="..\imagenes\pera2.png">
-    <link rel="stylesheet" href="..\css\lugares.css">
+
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="/css/turis.css">
+
 </head>
 
 <body>
+
     <header>
-        <nav>
-            <ul>
-                <a href="index.html">
-                    <li type="none">Información Personal </li>
-                </a>
-                <a href="contactos.html">
-                    <li type="none">Lista de Contactos </li>
-
-                </a>
-
-
-            </ul>
-
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+Menu
+<i class="fas fa-bars"></i>
+</button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="index.html">Personal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="contactos.html">Contactos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="turis.html">Sitios Turísticos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-        <hr>
-        <h1>LUGARES TURÍSTICOS DE CAJAMARCA</h1>
+
     </header>
-    <hr>
-    <main>
-        <section>
-            <h2>Cajamarca</h2>
-            <h3>Historia, cultura y tradición</h3>
-            <p>Cajamarca es una acogedora ciudad de magnífica arquitectura colonial y tierra de historia con lugares como los Baños del Inca, las Ventanillas de Otuzco y Cumbemayo. Destino de naturaleza bucólica como la Ex-hacienda La Colpa y la Granja Porcón.
-                Pueblo colorido, que cada año, en febrero y marzo, se empapa de carnavales. Ubicación: Sierra norte del Perú, frontera con Ecuador. Extensión: 33.318 Km2. </p>
 
-            <img src="..\imagenes\cajamarca.png" alt="Plaza de armas de Cajamarca">
-            <section>
+    <!-- slider -->
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="img/baños.jpg">
+                <!-- random image -->
+                <div class="caption center-align">
+                    <h3>Baños del Inca</h3>
+                    <h5 class="light grey-text text-lighten-5"> <strong> El balneario de los Incas</strong> </h5>
+                </div>
+            </li>
+            <li>
+                <img src="img/cumbe.jpg">
+                <!-- random image -->
+                <div class="caption left-align">
+                    <h3>Cumbe Mayo</h3>
+                    <h5 class="light grey-text text-lighten-3"><strong> Y su famoso Bosque de Piedras</strong> </h5>
+                </div>
+            </li>
+            <li>
+                <img src="img/colpa.jpg">
+                <!-- random image -->
+                <div class="caption right-align">
+                    <h3>Hacienda la Collpa</h3>
+                    <h5 class="light grey-text text-lighten-3"> <strong> Capilla en honor a la Virgen del Carmen</strong> </h5>
+                </div>
+            </li>
+            <li>
+                <img src="img/granja.jpg">
+                <!-- random image -->
+                <div class="caption center-align">
+                    <h3>Granja Porcón</h3>
+                    <h5 class="light grey-text text-lighten-3"> <strong>Grandes bosques de pinos y un pequeño zoológico </strong> </h5>
+                </div>
+            </li>
+        </ul>
+    </div>
 
-                <section>
-                    <h3>Conosca más detalles sobre sus lugares turísticos...</h3>
-                    <table border="2">
-                        <tr>
-                            <th>Nombre</th>
-                            <th>Descripción</th>
-                            <th>Ubicación</th>
+    <!-- /slider -->
+    <br> <br>
 
+    <div class="row">
+        <div class="col-md-6 mt-4">
 
-                        </tr>
-                        <tr>
-                            <th>Baños del Inca</th>
-                            <th>
+            <!-- carts Cumbe Mayo -->
 
-                                Sus aguas son termales, de origen vólcanico,alcanzan temperaturas <br> de 72 °C (158 °F).Eran visitadas por el inca Atahualpa.En la <br> actualidad es un balneario medicinal que ofrece los servicios de <br> pozas colectivas
-                                e individuales,piscinas al aire libre,masajes, <br> baño sauna, entre otros.
+            <div class="row" style="width: 60%">
+                <div class="col s12 m7">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/car1.jpg">
+                            <span class="card-title">Cumbe Mayo</span>
 
-                            </th>
-                            <th> A 6 km al este de la ciudad de Cajamarca (10 min en auto).</th>
-                        </tr>
+                            <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">+</i></a>
 
-                        <tr>
-                            <th>Cumbemayo</th>
-                            <th>Es un mágico bosque de piedras con enormes figuras líticas llamadas Frailones,<br> por su parecido a una procesión de frailes. Descubierto en 1937, destacan el <br> Acueducto (1300 a. C.), singular obra de ingeniería hidráulica;el
-                                denominado <br> Santuario, farallón con apariencia de una gigantesca cabeza humana; y las Cuevas,<br> donde existen grabados o petroglifos.
-                            </th>
-                            <th>A 20 km al suroeste de Cajamarca</th>
-                        </tr>
-
-                        <tr>
-                            <th>Granja Porcón</th>
-                            <th> En la granja Porcón se puede alimentar animales o participar en actividades <br> agrícolas. Sus 12.800 hectáreas son perfectas para la caminata o el paseo a <br> caballo entre los bosques de pinos, quinuales y alisos. Si todavía
-                                hay energías, <br> se puede realizar rapel, canotaje y ciclismo</th>
-                            <th>A 20 Km al norte de Cajamarca</th>
-                        </tr>
-
-                        <tr>
-                            <th>Ex Hacienda La Collpa</th>
-                            <th>Es un agradable lugar de la campiña cajamarquina dedicada a la crianza <br> de ganado vacuno lechero. Lo particular de esta hacienda es el popular <br> "Llamado de las vacas", quienes acuden disciplinadamente al lugar que <br>                                les corresponde para el ordeño. Además del establo, se puede visitar la <br> Casa Hacienda, la laguna artificial, la capilla La Virgen del Carmen y el <br> mirador desde donde se puede observar el verde y colorido horizonte
-                                serrano. </th>
-                            <th>A 11 Km. de la ciudad de Cajamarca</th>
-                        </tr>
-
-                        <tr>
-                            <th>Ventanillas de Otuzco</th>
-                            <th>Es uno de los cementerios pre- inca más importante de la sierra norte <br> Entre verdosos pastizales y un bosque de eucalipto, este cementerio inca <br> se encuentra a 2,850 m s.n.m. El destino es un conjunto de criptas esculpidas
-                                <br> sobre un macizo rocoso de origen volcánico, conocido como roca traquita;<br> teniendo formas rectangulares y otras casi cuadradas de 50 o 60 cm de altura <br> en promedio. Las tumbas pueden llegar a alcanzar los 8
-                                y 10 metros de profundidad.
-
-                            </th>
-                            <th>A 8Km al norte de la ciudad de Cajamarca </th>
-                        </tr>
-                    </table>
-
-                    <br>
-                </section>
-
-                <section>
-
-                    <h3>¿Te animas a visitarlos?</h3>
-                    <video height="400" width="600" controls>
-                        <source src="..\videos\cajamarca.mp4">
-                            tu navegador no puede mostrar el video
-                    </video>
-                </section>
-    </main>
-    <br>
-    <br>
-    <br>
-    <br>
-    <hr>
-    <footer>
-
-        <address>Autor(a):Evelin Duran Julcamoro <br> Ultima Modificación 5 de mayo del 2019</address> &copy;Todos los derecho reservados
+                        </div>
+                        <div class="card-content">
+                            <p class="justificacion">Es un mágico bosque de piedras con enormes figuras líticas llamadas Frailones, por su parecido a una procesión de frailes. Descubierto en 1937, destacan el Acueducto (1300 a. C.), singular obra de ingeniería hidráulica;el denominado
+                                Santuario, farallón con apariencia de una gigantesca cabeza humana; y las Cuevas, donde existen grabados o petroglifos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /carts -->
+        </div>
 
 
+        <div class="col-md-6 mt-4">
+            <!-- carts Baños del inca -->
+
+            <div class="row" style="width: 60%">
+                <div class="col s12 m7">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/cardBaños.jpg">
+                            <span class="card-title">Baños del Inca</span>
+                            <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">+</i></a>
+
+                        </div>
+                        <div class="card-content">
+                            <p class="justificacion">Sus aguas son termales, de origen vólcanico,alcanzan temperaturas de 72 °C (158 °F).Durante el incanato eran visitadas por el inca Atahualpa para relajarse y recuperar fuerzas.En la actualidad es un balneario medicinal que
+                                ue atrae a turistas nacionales e internacionales para disfrutar de los servicios de pozas colectivas e individuales,piscinas al aire libre,masajes, baño sauna, entre otros.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /carts -->
+        </div>
+
+        <div class="col-md-6 mt-4">
+            <!-- carts collpa -->
+
+            <div class="row" style="width: 60%">
+                <div class="col s12 m7">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/cardCollpa.jpg">
+                            <span class="card-title">Hacienda la Collpa</span>
+                            <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">+</i></a>
+
+                        </div>
+                        <div class="card-content">
+                            <p class="justificacion">Es un agradable lugar de la campiña cajamarquina dedicada a la crianza de ganado vacuno lechero. Lo particular de esta hacienda es el popular "Llamado de las vacas", quienes acuden disciplinadamente al lugar que les corresponde
+                                para el ordeño. Además del establo, se puede visitar la Casa Hacienda, la laguna artificial, la capilla La Virgen del Carmen y el mirador desde donde se puede observar el verde y colorido horizonte serrano.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /carts -->
+        </div>
+
+
+
+        <div class="col-md-6 mt-4">
+            <!-- carts Ventanillas -->
+
+            <div class="row" style="width: 60%">
+                <div class="col s12 m7">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/carVentanillas.jpg">
+                            <span class="card-title">Ventanillas de Otuzco</span>
+                            <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">+</i></a>
+                        </div>
+                        <div class="card-content">
+                            <p class="justificacion">Es uno de los cementerios pre- inca más importante de la sierra norte Entre verdosos pastizales y un bosque de eucalipto, este cementerio inca se encuentra a 2,850 m s.n.m. El destino es un conjunto de criptas esculpidas sobre
+                                un macizo rocoso de origen volcánico, conocido como roca traquita; teniendo formas rectangulares y otras casi cuadradas de 50 o 60 cm de altura en promedio. Las tumbas pueden llegar a alcanzar los 8 y 10 metros de profundidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /carts -->
+        </div>
+
+
+    </div>
+
+    <div class="col-md-6 mt-4"></div>
+
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ./Contacto y footer-->
+
+    <section class="contact-section bg-black">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Dirección</h4>
+                            <hr class="my-4">
+                            <div class="small text-black-50">jr. San Camilo s/n-Villa Huacariz </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-envelope text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Email</h4>
+                            <hr class="my-4">
+                            <div class="small text-black-50">
+                                <a href="#">eduranj@unc.edu.pe</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Celular</h4>
+                            <hr class="my-4">
+                            <div class="small text-black-50">912530295</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social d-flex justify-content-center">
+                <a href="#" class="mx-2">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="mx-2">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="mx-2">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black small text-center text-white-50">
+        <div class="container">
+            Copyright &copy; My Website 2019
+        </div>
     </footer>
 
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/grayscale.min.js"></script>
+
+
+
+    <!-- materialize slider-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.slider');
+            var instances = M.Slider.init(elems);
+        });
+
+        // Or with jQuery
+
+        $(document).ready(function() {
+            $('.slider').slider();
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems);
+        });
+
+        // Initialize collapsible (uncomment the lines below if you use the dropdown variation)
+        // var collapsibleElem = document.querySelector('.collapsible');
+        // var collapsibleInstance = M.Collapsible.init(collapsibleElem, options);
+
+        // Or with jQuery
+
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+        });
+    </script>
+
+
+    <script>
+    </script>
 </body>
 
 </html>

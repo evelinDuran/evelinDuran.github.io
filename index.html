@@ -2,133 +2,250 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Evelin Duran Julcamoro">
-    <meta name="keywords" content="información personal">
-    <meta name="description" content="Datos de presentación personal">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>informaciónPersonal</title>
-    <link rel="icon" type="image/png" href="..\imagenes\pera2.png">
-    <link rel="stylesheet" href="..\css\estilo.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Información Personal</title>
+
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Unir Ambos -->
+
+    <!-- iconosFontawsome -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet" n="movimiento de cuadros">
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
 </head>
 
 <body>
-    <header>
-
-
-
-        <h1>MI INFORMACIÓN PERSONAL</h1>
-        <img src="..\imagenes\ev.png" alt="mi foto">
-        <p><strong>EVELIN  NATALI DURAN JULCAMORO</strong></p>
-        <p> <em>   Estudiante noveno ciclo de <abbr title="Ingeniería">Ing.</abbr> de Sistemas de la <abbr title="Universidad Nacional de Cajamarca">UNC</abbr></em> </p>
-
-        <hr>
-    </header>
-    <nav>
-        <ul>
-            <a href="contactos.html">
-                <li type="none">Lista de Contactos </li>
-
-            </a>
-            <a href="turis.html">
-                <li type="none">Lugares Turísticos </li>
-            </a>
-
-
-
-        </ul>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">
+            <div class="preloader" aria-busy="true" aria-label="Loading, please wait." role="progressbar">
+            </div>
+        </div>
+    </div>
+    <!-- ./Preloader -->
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.html">Personal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="contactos.html">Contactos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="turis.html">Sitios Turísticos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <hr>
-    <main>
-        <section>
-            <ins>  <h2>Datos Generales</h2>  </ins>
 
-            <ul>
-                <li type="circle"><strong>Fecha de nacimiento:</strong> 18 de septiembre de 1996</li>
-            </ul>
-            <ul>
-                <li type="circle"><strong>Lugar  de nacimiento:</strong> Cajamarca-Perú</li>
-            </ul>
-            <ul>
-                <li type="circle"><strong>Estado Civil:</strong> Soltera</li>
-            </ul>
 
-        </section>
-        <br>
-        <section>
-            <ins> <h2>Formación Académica</h2>     </ins>
-            <ul>
-                <li type="square"><strong>Primaria:</strong> <abbr title="Institución Educativa">I.E.</abbr> <q>Belén</q></li>
-            </ul>
-            <ul>
-                <li type="square"><strong>Secundaria:</strong> <abbr title="Institución Educativa ">I.E.</abbr> Emblemática <q> Santa Teresita</q></li>
-            </ul>
+    <!-- home -->
+    <div class="section" id="home" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="disply-table">
+                <div class="table-cell" data-aos="fade-up" data-aos-delay="0">
+                    <h4>Evelin Ntali</h4>
+                    <h1>Duran <br /> Julcamoro</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ./home -->
 
-        </section>
-        <br>
-        <section>
-            <ins> <h2>Gustos y Preferecias</h2>  </ins>
-            <h3>Deporte </h3>
-            <ul>
-                <li>Voleyboll</li>
-                <img src="..\imagenes\cont.png" alt="">
-                <li>Canotaje</li>
-                <img src="..\imagenes\canotaje.png" alt="">
-            </ul>
-            <h3>Música </h3>
-            <p>El género musical que me gusta es variado, entre una de mis canciones favoritas se encuentra:</p>
-            <ul>
-                <li> Let me love you</li>
-            </ul>
-            <audio controls>
-                <source src="..\audios\musica.mp3" type="audio/mpeg">
-                    Su navegador no reproducir el sonido
-            </audio>
-            <h3>Películas </h3>
-            <p>Prefiero las peliculas de acción y aventura como...</p>
-            <ul>
-                <li> Transformers</li>
-                <li>Replicas</li>
-                <li>El señor de los anillos</li>
-            </ul>
+    <!-- about -->
+    <div class="section" id="about">
+        <div class="container">
+            <div class="col-md-6" data-aos="fade-up">
+                <h4>01</h4>
+                <h1 class="size-50">Conoce <br /> sobre mí</h1>
+                <div class="h-50"></div>
+                <p>Mi nombre es Evelin Natali Duran Julcamoro,soy estudiante de noveno ciclo de ingeniería de Sistemas de la Universidad Nacional de Cajamarca. </p>
+                <p>Me gusta compartir tiempo en familia, además de jugar con mi hermoso Justas.Les confieso que creo que soy adicta a la pera porque podría comerme cien mientras escuchó la canción Perfect de Ed Sheeran Lyrics una y otro vez</p>
+                <div class="h-50"></div> <img src="img/firma.png" width="230" alt="" />
+                <div class="h-50"></div>
+            </div>
+            <div class="col-md-6 about-img-div">
+                <div class="about-border" data-aos="fade-up" data-aos-delay=".5"></div>
+                <img src="img/foto1.jpg" width="400" class="img-responsive" alt="" align="right" data-aos="fade-right" data-aos-delay="0" />
+            </div>
+        </div>
+    </div>
+    <!-- ./about -->
 
-            <h3>Comida </h3>
-            <p>Entre mis platos favoritos se encuentran:</strong>
-            </p>
-            <ul>
-                <li>Ceviche</li>
-                <li>Lomo Saltado</li>
-                <li>Aji de Gallina</li>
-            </ul>
-            <p> Y mi fruta favorita es la <strong>pera.</strong></p>
-        </section>
-        <br>
+    <!-- experience  -->
+    <div class="section" id="experience">
+        <div class="container">
+            <div class="col-md-12">
+                <h4>02</h4>
+                <h1 class="size-50">Algunos <br /> Acontecimientos Importantes</h1>
+                <div class="h-50"></div>
+            </div>
+            <div class="col-md-12">
+                <ul class="timeline">
+                    <li class="timeline-event" data-aos="fade-up">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">18 Setiembre 1996 </p>
+                            <h3>Mi nacimiento</h3>
+                            <h4>Se empezo a esribir mi historia</h4>
+                            <p>Nací a la una de la mañana, pesaba 3.5 kg y media 55 cm. </p>
+                        </div>
+                    </li>
+                    <li class="timeline-event" data-aos="fade-up" data-aos-delay=".2">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">Abril 1999 - Diciembre 2002</p>
+                            <h3>Educación Inicial</h3>
+                            <h4>Se acabaron los días de relajo</h4>
+                            <p>Empece a aprender a dibujar, pintar,cantar, los número, las vocales y otras cosas.La canción que mas recuerdo es Pimpon es un muñeco</p>
+                        </div>
+                    </li>
+                    <li class="timeline-event" data-aos="fade-up" data-aos-delay=".4">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">Abril 2003 - Diciembre 2008</p>
+                            <h3>Mi primaria</h3>
+                            <h4>Recuerdos involvidables</h4>
+                            <p>Estudié en la escuela primaria de mujeres Belén, mi curso favorito en los 6 años fue Ciencia y Ambiente </p>
+                        </div>
+                    </li>
 
-        <section>
-            <ins> <h2>Información para contactarme</h2></ins>
-            <h3>Dirección</h3>
-            <p> jr. San Camilo #212-Villa Huacariz
-                <p>
-                    <br>
-                    <h3> Redes Sociales</h3>
-                    <a href="https://www.facebook.com/evelin.duranjulcamoro" target="_blank"> <img src="..\imagenes\face.png" alt="logo facebook"> </a>
-                    <p> <strong>Facebook : </strong> Evelin Duran Julcamoro</p>
-                    <img src="..\imagenes\wapp.png" alt="icono de whatsapp">
-                    <p> <strong>WhatsApp : </strong> 912530295</p>
-                    <img src="..\imagenes\gmail.png" alt="icono de gmail">
-                    <p> <strong>Gmail :  </strong> evduranj@gmail.com</p>
-                    <br>
-                    <br>
-        </section>
-        <hr>
+                    <li class="timeline-event" data-aos="fade-up" data-aos-delay=".4">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">Marzo 2009 - Diciembre 2013</p>
+                            <h3>Mi secundaria</h3>
+                            <h4> A un paso de la universidad</h4>
+                            <p>Estudié en la institución educativa Santa Teresita, pase momentos hermosos junto con mis compañeras del quinto "H",mi curso favorito era Química </p>
+                        </div>
+                    </li>
 
-    </main>
 
-    <footer>
-        <address>Autor(a):Evelin Duran Julcamoro <br> Ultima Modificación 5 de mayo del 2019</address> &copy;Todos los derecho reservados
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- ./experience -->
+
+    <!-- contact -->
+    <div class="section" id="contact">
+        <div class="container">
+            <div class="col-md-12">
+                <h4>03</h4>
+                <h1 class="size-50">Contactame</h1>
+                <div class="h-50"></div>
+            </div>
+
+            <div class="col-md-8" data-aos="fade-up">
+                <form class="contact-bg" id="contact-form" name="contact" method="post" novalidate="novalidate">
+                    <input type="text" name="name" class="form-control" placeholder="Tu Nomnre" />
+                    <input type="email" name="email" class="form-control" placeholder="Tu Email" />
+                    <input type="text" name="phone" class="form-control" placeholder="Número Telefónico" />
+                    <textarea name="message" class="form-control" placeholder="Tu mensaje" style="height:120px"></textarea>
+                    <button id="submit" type="submit" name="submit" class="btn btn-glance">Send</button>
+                    <div id="success">
+                        <p class="green textcenter"> ¡Tu mensaje fue enviado exitosamente! Estaré en contacto tan pronto como pueda. </p>
+                    </div>
+                    <div id="error">
+                        <p> Algo salió mal, intente actualizar y volver a enviar el formulario. </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- ./contact -->
+
+    <section class="contact-section bg-black">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Dirección</h4>
+                            <hr class="my-4">
+                            <div class="small text-black-50">jr. San Camilo s/n-Villa Huacariz </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-envelope text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Email</h4>
+                            <hr class="my-4">
+                            <div class="small text-black-50">
+                                <a href="#">eduranj@unc.edu.pe</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Celular</h4>
+                            <hr class="my-4">
+                            <div class="small text-black-50">912530295</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social d-flex justify-content-center">
+                <a href="#" class="mx-2">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="mx-2">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="mx-2">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black small text-center text-white-50">
+        <div class="container">
+            Copyright &copy; My Website 2019
+        </div>
     </footer>
-</body>
 
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>¿
+
+    <script src="js/bootstrap.min.js"></script>¿
+    <script src="js/aos.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/grayscale.min.js"></script>¿
+</body>
 
 </html>

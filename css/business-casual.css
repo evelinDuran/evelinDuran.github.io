@@ -1,0 +1,77 @@
+body {
+    font-family: 'Lora';
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 23, 15, 0.65))), url(/img/cuerpo.jpg);
+    background: linear-gradient(rgba(47, 23, 15, 0.65)), url(/img/cuerpo.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway';
+}
+
+p {
+    line-height: 1.75;
+}
+
+.marginStyle {
+    margin-top: 88px;
+    padding-bottom: 5%;
+}
+
+.section-heading {
+    text-transform: uppercase;
+}
+
+.section-heading .section-heading-lower {
+    display: block;
+    font-size: 30px;
+    font-weight: 35;
+}
+
+.bg-faded {
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+@media (min-width: 992px) {
+    .product-item .product-item-title {
+        position: relative;
+        z-index: 1;
+        margin-bottom: -3rem;
+    }
+    .product-item .product-item-img {
+        position: relative;
+        z-index: 0;
+        max-width: 40vw;
+    }
+    .product-item .product-item-description {
+        position: relative;
+        z-index: 1;
+        margin-top: -3rem;
+        max-width: 40vw;
+    }
+}
+
+.contentImg {
+    width: 330px;
+    height: 470px;
+    color: white;
+}
+
+.contentImg img {
+    width: 100%;
+}
+
+.address strong {
+    font-size: 1.2rem;
+}
+
+.text-primary {
+    color: #e6a756 !important;
+}
